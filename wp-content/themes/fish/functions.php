@@ -11,4 +11,30 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+// Section post type
+function create_posttype() {
+ 
+    register_post_type( 'section',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Sections' ),
+				'singular_name' => __( 'Section' ),
+			),
+			'supports' => array( 'title', 'editor','thumbnail' ),
+            'public' => true,
+            'has_archive' => true,
+			'rewrite' => array('slug' => 'sections'),
+			
+			
+		)
+		
+    );
+}
+
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+
+
 ?>

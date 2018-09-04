@@ -31,6 +31,18 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
+			<?php 
+			// list sections
+				$posts = get_posts(array(
+					'posts_per_page'	=> -1,
+					'post_type'			=> 'section',					
+				));
+			?>
+			<?php foreach( $posts as $post ): 
+					setup_postdata( $post );?>
+					<?php $type = get_field('type'); ?>
+					<?php include 'sections/'.$type.'.php';?>
+			<?php endforeach; ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
