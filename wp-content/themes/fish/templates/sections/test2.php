@@ -1,5 +1,4 @@
 <div class="section" >
-<h1> TEST 2</h2>
 						<?php the_post_thumbnail_url( $size ); ?> 
 						<div class="section_content">
 							<div class="section_text">
