@@ -6,7 +6,7 @@
 									<?php the_title(); ?>
 								</h3>
 								<?php the_content(); ?>
-								<h2><?php the_field('test_field'); ?></h2>s
+								<h2><?php the_field('test_field'); ?></h2>
 							</div>
 						</div>
 					</div>
