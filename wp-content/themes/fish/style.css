@@ -11,3 +11,39 @@ License URI: LICENSE
 Text Domain: wp-bootstrap-starter
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 */
+html {
+  font-size: 150%; }
+
+body {
+  font-size: 1.6rem; }
+
+body {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-weight: 700; }
+
+#masthead {
+  padding: 0.5rem 0 !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #0F0A3D; }
+
+.menu-test {
+  position: relative; }
+
+.nav-item_about {
+  margin-right: 10rem; }
+
+.nav-item_brand-logo {
+  background-color: #fff;
+  border: 2px solid #0F0A3D;
+  width: 10rem;
+  height: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  z-index: 1500; }
+
+.nav-link {
+  color: #0F0A3D !important; }
