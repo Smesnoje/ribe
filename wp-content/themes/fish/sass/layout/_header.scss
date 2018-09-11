@@ -1,0 +1,46 @@
+#masthead {
+    padding: .5rem 0!important;
+    background-color: $color-white!important;
+    border-bottom: 1px solid $color-dark-blue;
+}
+
+.menu-test {
+    position: relative;
+}
+
+.nav-item {
+
+    &_home {
+
+    }
+
+    &_about {
+        margin-right: 10rem;
+    }
+
+    &_brand-logo {
+        background-color: $color-white;
+        border: 2px solid $color-dark-blue;
+        width: 10rem;
+        height: 5rem;
+        border-radius: 50%;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+        z-index: 1500;
+    }
+
+    &_contact {
+
+    }
+
+    &_menu {
+
+    }
+}
+
+.nav-link {
+    color: $color-dark-blue!important;
+}
