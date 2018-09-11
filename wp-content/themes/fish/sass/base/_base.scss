@@ -1,8 +1,12 @@
 
 html {
-    font-size: 150%;
+    font-size: 62.5%;
 }
 
 body {
     font-size: $default-font-size;
+}
+
+#page-sub-header {
+    display: none;
 }

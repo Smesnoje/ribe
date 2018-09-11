@@ -12,17 +12,20 @@ Text Domain: wp-bootstrap-starter
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 */
 html {
-  font-size: 150%; }
+  font-size: 62.5%; }
 
 body {
   font-size: 1.6rem; }
+
+#page-sub-header {
+  display: none; }
 
 body {
   font-family: "Roboto Condensed", sans-serif !important;
   font-weight: 700; }
 
 #masthead {
-  padding: 0.5rem 0 !important;
+  padding: 1.5rem 0 !important;
   background-color: #fff !important;
   border-bottom: 1px solid #0F0A3D; }
 
@@ -30,13 +33,13 @@ body {
   position: relative; }
 
 .nav-item_about {
-  margin-right: 10rem; }
+  margin-right: 20rem; }
 
 .nav-item_brand-logo {
   background-color: #fff;
   border: 2px solid #0F0A3D;
-  width: 10rem;
-  height: 5rem;
+  width: 20rem;
+  height: 10rem;
   border-radius: 50%;
   text-align: center;
   position: absolute;
@@ -46,4 +49,28 @@ body {
   z-index: 1500; }
 
 .nav-link {
-  color: #0F0A3D !important; }
+  color: #0F0A3D !important;
+  font-size: 2.4rem !important; }
+
+.site-content {
+  padding-top: 0 !important; }
+
+.container {
+  max-width: 100%; }
+
+.content-area {
+  width: 100%;
+  max-width: 100%;
+  flex: none; }
+
+.section {
+  height: 90vh;
+  position: relative; }
+  .section:not(:first-child) {
+    height: 100vh; }
+  .section_content {
+    position: absolute;
+    top: 50%;
+    left: 50%; }
+  .section_text {
+    color: #fff; }

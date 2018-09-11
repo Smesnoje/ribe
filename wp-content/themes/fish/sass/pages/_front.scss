@@ -1,0 +1,32 @@
+.site-content {
+    padding-top: 0!important;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.content-area {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+}
+
+.section {
+    height: 90vh;
+    position: relative;
+
+    &:not(:first-child) {
+        height: 100vh;
+    }
+
+    &_content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    &_text {
+        color: $color-white;
+    }
+}
